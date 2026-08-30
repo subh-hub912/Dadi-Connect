@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Dadi Connect",
+    "slug": "dadi-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "dadiconnect",
+    "splash": {
+      "backgroundColor": "#FFF4DD",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.family.dadiconnect"
+    },
+    "android": {
+      "package": "com.family.dadiconnect",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF4DD"
+      },
+      "permissions": [
+        "android.permission.CALL_PHONE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "You can choose contact photos from this phone."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7d06c6f9-e047-4084-835c-e64f25407420"
+      }
+    }
+  }
+}
